@@ -582,6 +582,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1271912435}
+    - target: {fileID: 3498052043663173285, guid: 027a280457906a64aa8223f89eaac773, type: 3}
+      propertyPath: spatialAnchorsAccountId
+      value: fa52c5f8-d068-4e08-b0d5-8f1cfd438190
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498052043663173285, guid: 027a280457906a64aa8223f89eaac773, type: 3}
+      propertyPath: spatialAnchorsAccountKey
+      value: zC0oppHh1LXAcu8/B+3W1RBPwkPirc58Za2hRa0iduo=
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498052043663173285, guid: 027a280457906a64aa8223f89eaac773, type: 3}
+      propertyPath: spatialAnchorsAccountDomain
+      value: westeurope.mixedreality.azure.com
+      objectReference: {fileID: 0}
     - target: {fileID: 6931196017462994529, guid: 027a280457906a64aa8223f89eaac773, type: 3}
       propertyPath: m_Name
       value: TableAnchor
