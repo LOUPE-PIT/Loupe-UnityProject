@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MRTK Tutorial Scene.unity
     guid: cb604c69c834e694ea8f76044c89d4ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Multi-user.unity
     guid: ad418df0331b56548999414344a97a9a
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Experimental - ExamplesHub/Scenes/MRTKExamplesHubMainMenu.unity
+    guid: 63a00118e809c754f9c7911bb85d635f
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Tooltips/Scenes/TooltipExamples.unity
+    guid: de90a43947eced441b4c426e11f35f28
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 86bc9192b50527f488814839e4505620, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7a7328616f043ee41b594e1c6c16373f, type: 2}
