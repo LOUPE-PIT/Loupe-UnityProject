@@ -17,6 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Tooltips/Scenes/TooltipExamples.unity
     guid: de90a43947eced441b4c426e11f35f28
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/BoundingBox/Scenes/BoundingBoxExamples.unity
+    guid: 9da574c0affd04d42a6b1e5db09e82b4
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/PressableButton/Scenes/PressableButtonExample.unity
+    guid: b2d06bb8d7f107d4783a56c796c5c120
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slate/SlateExample.unity
+    guid: 86e8b0c6246dbb74aa04ecd40a57d89c
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slider/Scenes/SliderExample.unity
+    guid: 086aad2912678d04e968264b2398004b
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Experimental - SceneUnderstanding/Scenes/SceneUnderstandingExample.unity
+    guid: d42a352dc9a8c4d4990a924687759199
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Experimental - HandMenuLayout/Scenes/HandMenuLayoutExamples.unity
+    guid: 9e1c6bf44fb90c54dbf82acf2808c16f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 86bc9192b50527f488814839e4505620, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7a7328616f043ee41b594e1c6c16373f, type: 2}
