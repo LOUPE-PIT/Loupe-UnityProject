@@ -47,6 +47,10 @@
     "com.microsoft.azure.object-anchors.runtime": "file:MixedReality/com.microsoft.azure.object-anchors.runtime-0.20.0.tgz",
     "com.microsoft.azure.remote-rendering": "file:MixedReality/com.microsoft.azure.remote-rendering-1.0.54.tgz",
     "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.12.0.tgz",
-    "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.12.0.tgz"
+    "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.12.0.tgz",
+    "com.microsoft.mixedreality.toolkit.examples": "file:MixedReality/com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz",
+    "com.microsoft.mixedreality.toolkit.extensions": "file:MixedReality/com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz",
+    "com.microsoft.mixedreality.toolkit.figmabridge": "file:MixedReality/com.microsoft.mixedreality.toolkit.figmabridge-0.1.1.tgz",
+    "com.microsoft.mixedreality.toolkit.tools": "file:MixedReality/com.microsoft.mixedreality.toolkit.tools-2.7.3.tgz"
   }
 }
