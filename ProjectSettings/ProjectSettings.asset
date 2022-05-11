@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 376cbac52bbf0db4997d81e98cd14b5b, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -138,6 +138,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 3774288037073220299, guid: 7a7328616f043ee41b594e1c6c16373f, type: 2}
   - {fileID: -7347218558040034399, guid: 86bc9192b50527f488814839e4505620, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -642,6 +643,16 @@ PlayerSettings:
   metroCertificateNotAfter: 000145e8a168d901
   metroApplicationDescription: Template_3D
   wsaImages:
+    65636: Assets/Sprites/Logo/50.png
+    65661: Assets/Sprites/Logo/63.png
+    65686: Assets/Sprites/Logo/75.png
+    65736: Assets/Sprites/Logo/100.png
+    65936: Assets/Sprites/Logo/200.png
+    131172: Assets/Sprites/Logo/620x300.png
+    131197: Assets/Sprites/Logo/775x375.png
+    131222: Assets/Sprites/Logo/930x450.png
+    131272: Assets/Sprites/Logo/1240x600.png
+    131472: Assets/Sprites/Logo/2480x1200.png
     2031632: Assets/Sprites/Logo/16.png
     2031640: Assets/Sprites/Logo/24.png
     2031648: Assets/Sprites/Logo/32.png
@@ -667,7 +678,12 @@ PlayerSettings:
     2228374: Assets/Sprites/Logo/465.png
     2228424: Assets/Sprites/Logo/620.png
     2228624: Assets/Sprites/Logo/1240.png
-  metroTileShortName: MRTK Tutorial
+    2293860: Assets/Sprites/Logo/310x150.png
+    2293885: Assets/Sprites/Logo/388x188.png
+    2293910: Assets/Sprites/Logo/465x225.png
+    2293960: Assets/Sprites/Logo/620x300.png
+    2294160: Assets/Sprites/Logo/1240x600.png
+  metroTileShortName: Loupe
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -676,7 +692,7 @@ PlayerSettings:
   metroLastRequiredScene: 0
   metroDefaultTileSize: 1
   metroTileForegroundText: 2
-  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
+  metroTileBackgroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 0}
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
