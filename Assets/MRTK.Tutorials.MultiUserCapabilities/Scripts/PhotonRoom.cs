@@ -9,8 +9,8 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public static PhotonRoom Room;
 
         [SerializeField] private GameObject photonUserPrefab = default;
-        [SerializeField] private GameObject roverExplorerPrefab = default;
-        [SerializeField] private Transform roverExplorerLocation = default;
+        [SerializeField] private GameObject modelPrefab = default;
+        [SerializeField] private Transform modelLocation = default;
 
         // private PhotonView pv;
         private Player[] photonPlayers;
@@ -64,7 +64,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             {
                 if (photonUserPrefab != null) pool.ResourceCache.Add(photonUserPrefab.name, photonUserPrefab);
 
-                if (roverExplorerPrefab != null) pool.ResourceCache.Add(roverExplorerPrefab.name, roverExplorerPrefab);
+                if (modelPrefab != null) pool.ResourceCache.Add(modelPrefab.name, modelPrefab);
             }
         }
 
@@ -86,7 +86,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
             if (!PhotonNetwork.IsMasterClient) return;
 
-            if (TableAnchor.Instance != null) CreateInteractableObjects();
+            //if (TableAnchor.Instance != null) CreateInteractableObjects();
         }
 
         private void CreatPlayer()
@@ -94,14 +94,14 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             var player = PhotonNetwork.Instantiate(photonUserPrefab.name, Vector3.zero, Quaternion.identity);
         }
 
-        private void CreateInteractableObjects()
+        public void CreateInteractableObjects(GameObject modelPrefab)
         {
-            var position = roverExplorerLocation.position;
-            var positionOnTopOfSurface = new Vector3(position.x, position.y + roverExplorerLocation.localScale.y / 2,
+            var position = modelLocation.position;
+            var positionOnTopOfSurface = new Vector3(position.x, position.y + modelLocation.localScale.y / 2,
                 position.z);
 
-            var go = PhotonNetwork.Instantiate(roverExplorerPrefab.name, positionOnTopOfSurface,
-                roverExplorerLocation.rotation);
+            var go = PhotonNetwork.InstantiateRoomObject(modelPrefab.name, positionOnTopOfSurface,
+                modelLocation.rotation);
         }
 
         // private void CreateMainLunarModule()

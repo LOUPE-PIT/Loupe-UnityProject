@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Multi User 2
+  companyName: Practoraat Interactieve Technologie van ROC Tilburg
+  productName: Loupe 0.2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 0.2
   preloadedAssets:
   - {fileID: 3774288037073220299, guid: 7a7328616f043ee41b594e1c6c16373f, type: 2}
   - {fileID: -7347218558040034399, guid: 86bc9192b50527f488814839e4505620, type: 2}
@@ -267,7 +267,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 376cbac52bbf0db4997d81e98cd14b5b, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -626,7 +633,7 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: app-multi-user-2
+  metroPackageName: app-loupe-0.2
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
@@ -634,7 +641,32 @@ PlayerSettings:
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 000145e8a168d901
   metroApplicationDescription: Template_3D
-  wsaImages: {}
+  wsaImages:
+    2031632: Assets/Sprites/Logo/16.png
+    2031640: Assets/Sprites/Logo/24.png
+    2031648: Assets/Sprites/Logo/32.png
+    2031664: Assets/Sprites/Logo/48.png
+    2031716: Assets/Sprites/Logo/44x44.png
+    2031741: Assets/Sprites/Logo/55x55.png
+    2031766: Assets/Sprites/Logo/66x66.png
+    2031816: Assets/Sprites/Logo/88.png
+    2031872: Assets/Sprites/Logo/256.png
+    2032016: Assets/Sprites/Logo/176.png
+    2097252: Assets/Sprites/Logo/71.png
+    2097277: Assets/Sprites/Logo/89.png
+    2097302: Assets/Sprites/Logo/107.png
+    2097352: Assets/Sprites/Logo/142.png
+    2097552: Assets/Sprites/Logo/284.png
+    2162788: Assets/Sprites/Logo/150.png
+    2162813: Assets/Sprites/Logo/188.png
+    2162838: Assets/Sprites/Logo/225.png
+    2162888: Assets/Sprites/Logo/300.png
+    2163088: Assets/Sprites/Logo/600.png
+    2228324: Assets/Sprites/Logo/310.png
+    2228349: Assets/Sprites/Logo/388.png
+    2228374: Assets/Sprites/Logo/465.png
+    2228424: Assets/Sprites/Logo/620.png
+    2228624: Assets/Sprites/Logo/1240.png
   metroTileShortName: MRTK Tutorial
   metroTileShowName: 0
   metroMediumTileShowName: 0
