@@ -94,14 +94,19 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             var player = PhotonNetwork.Instantiate(photonUserPrefab.name, Vector3.zero, Quaternion.identity);
         }
 
-        public void CreateInteractableObjects(GameObject modelPrefab)
+        public void CreateInteractableObjects(GameObject interactableObject)
         {
             var position = modelLocation.position;
             var positionOnTopOfSurface = new Vector3(position.x, position.y + modelLocation.localScale.y / 2,
                 position.z);
 
-            var go = PhotonNetwork.InstantiateRoomObject(modelPrefab.name, positionOnTopOfSurface,
+            var go = PhotonNetwork.Instantiate(interactableObject.name, positionOnTopOfSurface,
                 modelLocation.rotation);
+        }
+
+        public void DestroyObject(GameObject objectToDestroy)
+        {
+            PhotonNetwork.Destroy(objectToDestroy);
         }
 
         // private void CreateMainLunarModule()

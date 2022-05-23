@@ -2204,6 +2204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597720048018705554}
   - component: {fileID: 761178195}
+  - component: {fileID: 1647086090678417823}
   m_Layer: 0
   m_Name: Motor Electric
   m_TagString: Untagged
@@ -2238,6 +2239,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1f599ee8d3bb0043a9a69cf0423d3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1647086090678417823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597720048018705553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a148b9c1246eec848a2d412f0aa065f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &597720048058139889
@@ -2566,6 +2579,18 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1647086090678417823}
+        m_TargetAssemblyTypeName: DestroyObject, Assembly-CSharp
+        m_MethodName: DestroyGameObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 263114174546769126}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 597720048018705553}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -9198,7 +9223,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5112212091547751195}
   m_LocalRotation: {x: 0.019660134, y: -0, z: -0, w: 0.99980676}
-  m_LocalPosition: {x: -1.3322152, y: 0.15756197, z: -2.1685882}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 597720049096922570}
@@ -13908,14 +13933,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb65bb040d2dce144a90d568ed97f32a, type: 3}
---- !u!4 &8880890092593957563 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8319491340605030911, guid: eb65bb040d2dce144a90d568ed97f32a, type: 3}
-  m_PrefabInstance: {fileID: 597720049321167684}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5576612632293521576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4985375469225735148, guid: eb65bb040d2dce144a90d568ed97f32a, type: 3}
+  m_PrefabInstance: {fileID: 597720049321167684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8880890092593957563 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8319491340605030911, guid: eb65bb040d2dce144a90d568ed97f32a, type: 3}
   m_PrefabInstance: {fileID: 597720049321167684}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &597720049735933285
