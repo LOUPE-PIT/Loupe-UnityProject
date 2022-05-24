@@ -9,7 +9,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public static PhotonRoom Room;
 
         [SerializeField] private GameObject photonUserPrefab = default;
-        [SerializeField] private GameObject modelPrefab = default;
+        [SerializeField] private GameObject[] modelPrefabs = default;
         [SerializeField] private Transform modelLocation = default;
 
         // private PhotonView pv;
@@ -64,7 +64,10 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             {
                 if (photonUserPrefab != null) pool.ResourceCache.Add(photonUserPrefab.name, photonUserPrefab);
 
-                if (modelPrefab != null) pool.ResourceCache.Add(modelPrefab.name, modelPrefab);
+                foreach (GameObject modelPrefab in modelPrefabs)
+                {
+                    if (modelPrefab != null) pool.ResourceCache.Add(modelPrefab.name, modelPrefab);
+                }
             }
         }
 
