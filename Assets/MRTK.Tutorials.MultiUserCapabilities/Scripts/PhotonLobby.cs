@@ -83,7 +83,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
         private void CreateRoom()
         {
-            var roomOptions = new RoomOptions {IsVisible = true, IsOpen = true, MaxPlayers = 10};
+            var roomOptions = new RoomOptions {IsVisible = true, IsOpen = true, MaxPlayers = 100, CleanupCacheOnLeave = false };
             PhotonNetwork.CreateRoom("Room" + Random.Range(1, 3000), roomOptions);
         }
     }
