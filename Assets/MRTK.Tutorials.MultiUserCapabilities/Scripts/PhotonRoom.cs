@@ -100,10 +100,10 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public void CreateInteractableObjects(GameObject interactableObject)
         {
             var position = modelLocation.position;
-            var positionOnTopOfSurface = new Vector3(position.x, position.y + modelLocation.localScale.y / 2,
+            var positionOnTopOfSurface = new Vector3(position.x, position.y + modelLocation.localScale.y,
                 position.z);
 
-            var go = PhotonNetwork.Instantiate(interactableObject.name, positionOnTopOfSurface,
+            var go = PhotonNetwork.Instantiate(interactableObject.name, position,
                 modelLocation.rotation);
         }
 
