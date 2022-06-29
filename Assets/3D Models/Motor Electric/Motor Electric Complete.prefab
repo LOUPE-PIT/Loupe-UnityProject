@@ -2231,39 +2231,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
-      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
-      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1647086090678417823}
+      objectReference: {fileID: 6949434568333244291}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 4481175588272017359}
+      objectReference: {fileID: 1647086090678417823}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DestroyGameObject
+      value: RequestOwnership
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
+      value: DestroyGameObject
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DestroyObject, Assembly-CSharp
+      value: Photon.Pun.PhotonView, PhotonUnityNetworking
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -2272,18 +2272,18 @@ PrefabInstance:
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 597720048018705553}
+      objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 597720048018705553}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8519737605190488903, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82eb25fe4fe453247ab695a0e112bc05, type: 3}
