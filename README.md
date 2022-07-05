@@ -1,9 +1,5 @@
 # Loupe-UnityProject
 
-## Contents
-
-[TOC]
-
 ## Introduction
 
 The Practorate Interactive Technology of ROC Tilburg (PIT)[^1], built an Augmented Reality (AR) application with which teachers can support their lessons via the Microsoft HoloLens 2. The AR app, called Loupe, makes it possible for teachers and students to collaborate simultaneously in separate locations with custom 3D models in the context of practice-oriented education. Of course, the teachers and students can also do this in the same room. Teachers can import their own 3D models (created themselves, scanned themselves, or purchased via the internet) into the app to make them useable for their education. The applications are wide; it can be used for both practical and theoretical lessons. As an example, consider learning the different components of an engine block or organ. It can be used in almost all majors.
@@ -12,7 +8,7 @@ The Practorate Interactive Technology of ROC Tilburg (PIT)[^1], built an Augment
 
 1. Download and install [Unity Hub](https://unity3d.com/get-unity/download).
 
-2. Install Unity version **2020.3.28f1** using the Unity Hub with the *Universal Windows Platform Build Support *and *Windows Build Support (IL2CPP)* modules: <img src="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/images/unity_install_option_uwp.png" alt="Unity Hub" style="zoom: 67%;" />
+2. Install Unity version **2020.3.28f1** using the Unity Hub with the *Universal Windows Platform Build Support* and *Windows Build Support (IL2CPP)* modules: <img src="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/images/unity_install_option_uwp.png" alt="Unity Hub" style="zoom: 67%;" />
 
 3. **Opening the project**: Unfortunately, cloning the repo will cause errors. This is because necessary modifications have been made to a package *(MRTK Toolkit)*, which will otherwise be freshly imported into the project via the package manager when you open the Unity Project. Instead, download and extract the master branch in [this zip file](https://mega.nz/file/5lhX2D5S#BQpRrhTQya5r2ICyqi9jnTvOPn1oF9B0Zzdy8Vm7aGU), and locate the extracted folder as a repo. From there on, you should be good to go. Open the project using Unity Hub.
 
