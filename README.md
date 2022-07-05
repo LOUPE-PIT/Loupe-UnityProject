@@ -22,5 +22,9 @@ Bart Blaak, an intern at the Practorate Interactive Technology of ROC Tilburg (P
 
 ## Recommended reading
 
-[^1]: Practorate is a derived from "Lectorate". A lectorate is a research group within Universities (of Applied Sciences). A Practorate is the same, but practorates conduct research in the secondary vocation education (MBO) system.
+
+
+## Footnotes
+
+[^1]: Practorate is derived from "Lectorate". Lectorate is a Dutch word for a research group within Universities (of Applied Sciences). A Practorate is the same, but practorates conduct research in the secondary vocational education (MBO) system.
 
