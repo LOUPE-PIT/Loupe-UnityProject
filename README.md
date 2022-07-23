@@ -27,7 +27,7 @@ If you're going to be developing this project further, it is recommended to unde
 3. [Place a Mars Rover object in the scene and work with grids and intelligent object tracking](https://docs.microsoft.com/en-us/learn/modules/place-scene-objects/)
 4. [Getting started with 3D object interaction](https://docs.microsoft.com/en-us/learn/modules/get-started-with-object-interaction/)
 5. For the multi-user capabilities: [Multi-user capabilities tutorials](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/tutorials/mr-learning-sharing-01) (all of them).
-6. <u>This tutorial</u>, made for teachers who want to import their own 3D models for usage in the app.
+6. [This tutorial](https://bartblaak.github.io/2022/07/23/loupe-instructions.html), made for teachers who want to import their own 3D models for usage in the app.
 
 ## Other useful resources
 
