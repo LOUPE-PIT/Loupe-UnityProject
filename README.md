@@ -41,6 +41,8 @@ If you're going to be developing this project further, it is recommended to unde
 
 - [Photon Unity Networking Documentation](https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro)
 
+- [The back-end repository](https://github.com/LOUPE-PIT/back-end)
+
   
 
 [^1]: Practorate is derived from "Lectorate". Lectorate is a Dutch word for a research group within Universities (of Applied Sciences). A Practorate is the same, but practorates conduct research in the Dutch secondary vocational education (MBO) system.
