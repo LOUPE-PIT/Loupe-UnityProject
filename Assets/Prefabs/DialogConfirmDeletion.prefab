@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 7771343500022496811}
   - component: {fileID: 5623952267935496790}
   m_Layer: 0
-  m_Name: ButtonTwoA
+  m_Name: DeleteButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 4088617309928754627}
   - component: {fileID: 1956447171855914958}
   m_Layer: 0
-  m_Name: ButtonTwoB
+  m_Name: CancelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
