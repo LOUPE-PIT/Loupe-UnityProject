@@ -10,7 +10,7 @@ The Practorate Interactive Technology of ROC Tilburg (PIT)[^1], built an Augment
 
 2. Install Unity version **2020.3.28f1** using the Unity Hub with the *Universal Windows Platform Build Support* and *Windows Build Support (IL2CPP)* modules: <img src="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/images/unity_install_option_uwp.png" alt="Unity Hub" style="zoom: 67%;" />
 
-3. **Opening the project**: Unfortunately, cloning the repo will cause errors. This is because necessary modifications have been made to a package *(MRTK Toolkit)*, which will otherwise be freshly imported into the project via the package manager when you open the Unity Project. Instead, download and extract the master branch in [this zip file](https://mega.nz/file/5lhX2D5S#BQpRrhTQya5r2ICyqi9jnTvOPn1oF9B0Zzdy8Vm7aGU), and locate the extracted folder as a repo. From there on, you should be good to go. Open the project using Unity Hub.
+3. **Opening the project**: ]Open the cloned folder using Unity Hub.
 
    
 
